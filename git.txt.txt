@@ -1,0 +1,38 @@
+git init
+
+git config --global user.name "<your-name>"
+
+git config --global user.email "<your-email>"
+
+git status
+
+git log
+
+git branch -M main
+
+git remote add origin https://github.com/thala-007/wad.git
+
+git add .
+
+git commit -m "first commit"
+
+git push -u origin main
+
+git clone <repository-url>
+
+///////////////////////////////////////////////////////////////////
+
+git branch
+
+git branch <branch-name> //create new branch
+
+git checkout <branch-name> //Switches to the specified branch.
+
+git checkout -b <branch-name> //Creates a new branch and switches to it.
+
+git merge <branch-name>
+
+
+
+
+
