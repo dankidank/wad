@@ -5,9 +5,9 @@ const dbConnect = require('./connection');
 // const mongoObjectId = require('mongodb').ObjectId;
 
 app.use(express.json());
-
-app.listen(3000,(req,res)=>{
-    console.log(`listening.....`);
+const port = 3000
+app.listen(port,(req,res)=>{
+    console.log(`connected to port {port}`);
 })
 
 app.get('/',async(req,res) => {
